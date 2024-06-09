@@ -15,20 +15,19 @@ export class DataService {
   fetchData(): void {
     console.log('Fetching data...');
 
-    const usersRes = this.http.get<any[]>('data/users.json').pipe(
+    const usersRes = this.http.get<any[]>('assets/data/users.json').pipe(
       catchError(error => this.handleError(error, 'users.json'))
-    )
-        
-    const brandsRes = this.http.get<any[]>('data/brands.json').pipe(
+    );
+    const brandsRes = this.http.get<any[]>('assets/data/brands.json').pipe(
       catchError(error => this.handleError(error, 'brands.json'))
     );
-    const productsRes = this.http.get<any[]>('data/products.json').pipe(
+    const productsRes = this.http.get<any[]>('assets/data/products.json').pipe(
       catchError(error => this.handleError(error, 'products.json'))
     );
-    const reviewsRes = this.http.get<any[]>('data/reviews.json').pipe(
+    const reviewsRes = this.http.get<any[]>('assets/data/reviews.json').pipe(
       catchError(error => this.handleError(error, 'reviews.json'))
     );
-    const columnsRes = this.http.get<any>('data/columns.json').pipe(
+    const columnsRes = this.http.get<any>('assets/data/columns.json').pipe(
       catchError(error => this.handleError(error, 'columns.json'))
     );
 
@@ -62,7 +61,6 @@ export class DataService {
       errorMessage += `Server-side error: ${error.status} ${error.message}`;
     }
     console.error(errorMessage);
-    // Optionally, add user-friendly error handling here (e.g., show a message to the user)
     return throwError(() => new Error(errorMessage));
   }
 
