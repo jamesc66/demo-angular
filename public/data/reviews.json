@@ -1,0 +1,803 @@
+[
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440060",
+      "product_id": "550e8400-e29b-41d4-a716-446655440000",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440040",
+      "date": "2023-01-20",
+      "comments": "Great TV with excellent picture quality. Highly recommend!",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 4,
+        "ease_of_use": 4,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 4,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440061",
+      "product_id": "550e8400-e29b-41d4-a716-446655440002",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440041",
+      "date": "2023-02-25",
+      "comments": "The headphones are very comfortable and the noise cancellation is top-notch.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 5,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 3,
+        "features": 5,
+        "performance": 5,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440062",
+      "product_id": "550e8400-e29b-41d4-a716-446655440004",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440042",
+      "date": "2023-03-10",
+      "comments": "This blender is very powerful and easy to clean.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440063",
+      "product_id": "550e8400-e29b-41d4-a716-446655440006",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440043",
+      "date": "2023-04-05",
+      "comments": "The gaming laptop performs exceptionally well with the latest games.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 5,
+        "ease_of_use": 4,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440064",
+      "product_id": "550e8400-e29b-41d4-a716-446655440008",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440044",
+      "date": "2023-04-20",
+      "comments": "The electric toothbrush is very effective and has a long battery life.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440065",
+      "product_id": "550e8400-e29b-41d4-a716-446655440010",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440045",
+      "date": "2023-05-10",
+      "comments": "The smartphone has a great camera and fast performance.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440066",
+      "product_id": "550e8400-e29b-41d4-a716-446655440012",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440046",
+      "date": "2023-05-25",
+      "comments": "The air purifier works well and is very quiet.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440067",
+      "product_id": "550e8400-e29b-41d4-a716-446655440014",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440047",
+      "date": "2023-06-05",
+      "comments": "The action camera is great for outdoor adventures and records in high quality.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 4,
+        "ease_of_use": 4,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440068",
+      "product_id": "550e8400-e29b-41d4-a716-446655440016",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440048",
+      "date": "2023-06-20",
+      "comments": "The fitness tracker is accurate and has many useful features.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440069",
+      "product_id": "550e8400-e29b-41d4-a716-446655440018",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440049",
+      "date": "2023-07-05",
+      "comments": "The smart thermostat is easy to use and helps save on energy bills.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 4,
+        "value_for_money": 5,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440070",
+      "product_id": "550e8400-e29b-41d4-a716-446655440020",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440050",
+      "date": "2023-07-15",
+      "comments": "The robot vacuum is efficient and does a great job cleaning the house.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440071",
+      "product_id": "550e8400-e29b-41d4-a716-446655440022",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440051",
+      "date": "2023-08-01",
+      "comments": "The portable speaker has great sound quality and is very durable.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 5,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440072",
+      "product_id": "550e8400-e29b-41d4-a716-446655440024",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440052",
+      "date": "2023-08-10",
+      "comments": "The electric kettle heats up quickly and is very convenient.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440073",
+      "product_id": "550e8400-e29b-41d4-a716-446655440026",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440053",
+      "date": "2023-08-25",
+      "comments": "The wireless charger is fast and works well with multiple devices.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440074",
+      "product_id": "550e8400-e29b-41d4-a716-446655440028",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440054",
+      "date": "2023-09-05",
+      "comments": "The instant pot is very versatile and makes cooking easier.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 5,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440075",
+      "product_id": "550e8400-e29b-41d4-a716-446655440030",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440055",
+      "date": "2023-09-20",
+      "comments": "The noise cancelling earbuds are very effective and have great sound quality.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440076",
+      "product_id": "550e8400-e29b-41d4-a716-446655440032",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440056",
+      "date": "2023-10-01",
+      "comments": "The digital photo frame is easy to use and displays photos beautifully.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440077",
+      "product_id": "550e8400-e29b-41d4-a716-446655440034",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440057",
+      "date": "2023-10-15",
+      "comments": "The smart light bulb is easy to control and has great features.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 5,
+        "quality": 5,
+        "value_for_money": 5,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 5,
+        "performance": 5,
+        "reliability": 5,
+        "design": 5,
+        "packaging": 4
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440078",
+      "product_id": "550e8400-e29b-41d4-a716-446655440036",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440058",
+      "date": "2023-11-01",
+      "comments": "The ergonomic office chair is very comfortable and supports good posture.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440079",
+      "product_id": "550e8400-e29b-41d4-a716-446655440038",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440059",
+      "date": "2023-11-15",
+      "comments": "The wireless mouse is very responsive and has a long battery life.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 4,
+        "quality": 4,
+        "value_for_money": 4,
+        "ease_of_use": 5,
+        "customer_service": 4,
+        "features": 4,
+        "performance": 4,
+        "reliability": 4,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440080",
+      "product_id": "550e8400-e29b-41d4-a716-446655440000",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440040",
+      "date": "2023-12-01",
+      "comments": "The TV has great picture quality but the sound could be better.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 4,
+        "performance": 4,
+        "reliability": 3,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440081",
+      "product_id": "550e8400-e29b-41d4-a716-446655440002",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440041",
+      "date": "2023-12-05",
+      "comments": "The headphones are decent but the build quality feels cheap.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440082",
+      "product_id": "550e8400-e29b-41d4-a716-446655440004",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440042",
+      "date": "2023-12-10",
+      "comments": "The blender is powerful but very loud.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 3,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 4,
+        "reliability": 3,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440083",
+      "product_id": "550e8400-e29b-41d4-a716-446655440006",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440043",
+      "date": "2023-12-15",
+      "comments": "The gaming laptop is good but gets very hot quickly.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 3,
+        "customer_service": 3,
+        "features": 4,
+        "performance": 4,
+        "reliability": 3,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440084",
+      "product_id": "550e8400-e29b-41d4-a716-446655440008",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440044",
+      "date": "2023-12-20",
+      "comments": "The electric toothbrush is good but the battery doesn't last long.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440085",
+      "product_id": "550e8400-e29b-41d4-a716-446655440010",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440045",
+      "date": "2024-01-05",
+      "comments": "The smartphone is fast but the battery drains quickly.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 4,
+        "performance": 4,
+        "reliability": 3,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440086",
+      "product_id": "550e8400-e29b-41d4-a716-446655440012",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440046",
+      "date": "2024-01-10",
+      "comments": "The air purifier works but is quite noisy.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440087",
+      "product_id": "550e8400-e29b-41d4-a716-446655440014",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440047",
+      "date": "2024-01-15",
+      "comments": "The action camera is good but the battery life is short.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 3,
+        "customer_service": 3,
+        "features": 4,
+        "performance": 4,
+        "reliability": 3,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440088",
+      "product_id": "550e8400-e29b-41d4-a716-446655440016",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440048",
+      "date": "2024-01-20",
+      "comments": "The fitness tracker is okay but sometimes gives inaccurate readings.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440089",
+      "product_id": "550e8400-e29b-41d4-a716-446655440018",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440049",
+      "date": "2024-01-25",
+      "comments": "The smart thermostat is decent but the app is buggy.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440090",
+      "product_id": "550e8400-e29b-41d4-a716-446655440020",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440050",
+      "date": "2024-02-01",
+      "comments": "The robot vacuum works but sometimes gets stuck.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440091",
+      "product_id": "550e8400-e29b-41d4-a716-446655440022",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440051",
+      "date": "2024-02-05",
+      "comments": "The portable speaker is decent but the battery life is short.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440092",
+      "product_id": "550e8400-e29b-41d4-a716-446655440024",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440052",
+      "date": "2024-02-10",
+      "comments": "The electric kettle works but the lid is difficult to open.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440093",
+      "product_id": "550e8400-e29b-41d4-a716-446655440026",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440053",
+      "date": "2024-02-15",
+      "comments": "The wireless charger is okay but gets very hot during use.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440094",
+      "product_id": "550e8400-e29b-41d4-a716-446655440028",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440054",
+      "date": "2024-02-20",
+      "comments": "The instant pot is versatile but the instructions are not clear.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440095",
+      "product_id": "550e8400-e29b-41d4-a716-446655440030",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440055",
+      "date": "2024-02-25",
+      "comments": "The noise cancelling earbuds are good but not very comfortable.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 4,
+        "value_for_money": 3,
+        "ease_of_use": 3,
+        "customer_service": 3,
+        "features": 4,
+        "performance": 4,
+        "reliability": 3,
+        "design": 4,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440096",
+      "product_id": "550e8400-e29b-41d4-a716-446655440032",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440056",
+      "date": "2024-03-01",
+      "comments": "The digital photo frame is good but the app is difficult to use.",
+      "recomended": true,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440097",
+      "product_id": "550e8400-e29b-41d4-a716-446655440034",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440057",
+      "date": "2024-03-05",
+      "comments": "The smart light bulb is good but sometimes disconnects from Wi-Fi.",
+      "recomended": false,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440098",
+      "product_id": "550e8400-e29b-41d4-a716-446655440036",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440058",
+      "date": "2024-03-10",
+      "comments": "The ergonomic office chair is decent but the armrests are not adjustable.",
+      "recomended": false,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    },
+    {
+      "review_id": "550e8400-e29b-41d4-a716-446655440099",
+      "product_id": "550e8400-e29b-41d4-a716-446655440038",
+      "reviewer_id": "550e8400-e29b-41d4-a716-446655440059",
+      "date": "2024-03-15",
+      "comments": "The wireless mouse is good but sometimes lags.",
+      "recomended": false,
+      "rating_metrics": {
+        "overall_rating": 3,
+        "quality": 3,
+        "value_for_money": 3,
+        "ease_of_use": 4,
+        "customer_service": 3,
+        "features": 3,
+        "performance": 3,
+        "reliability": 3,
+        "design": 3,
+        "packaging": 3
+      }
+    }
+  ]
+  

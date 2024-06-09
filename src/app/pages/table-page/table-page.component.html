@@ -1,2 +1,11 @@
-<h1>Table Page</h1>
-<app-table />
+<h1>Users Table</h1>
+<app-table id="users" [tableData]="(data$ | async)?.users" [columnNames]="(columns$ | async)?.users" [height]="'500px'"></app-table>
+
+<h1>Brands Table</h1>
+<app-table id="brands" [tableData]="(data$ | async)?.brands" [columnNames]="(columns$ | async)?.brands" [height]="'500px'"></app-table>
+
+<h1>Products Table</h1>
+<app-table id="products" [tableData]="(data$ | async)?.products" [columnNames]="(columns$ | async)?.products" [height]="'500px'"></app-table>
+
+<h1>Reviews Table</h1>
+<app-table id="reviews" [tableData]="(data$ | async)?.reviews" [columnNames]="(columns$ | async)?.reviews" [height]="'500px'"></app-table>

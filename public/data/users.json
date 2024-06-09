@@ -1,0 +1,143 @@
+[
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440040",
+      "name": "Alice Johnson",
+      "username": "alice_j",
+      "email": "alice_j@example.com",
+      "date_joined": "2022-01-15"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440041",
+      "name": "Bob Smith",
+      "username": "bob_smith",
+      "email": "bob_smith@example.com",
+      "date_joined": "2022-02-20"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440042",
+      "name": "Charlie Davis",
+      "username": "charlie_d",
+      "email": "charlie_d@example.com",
+      "date_joined": "2022-03-10"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440043",
+      "name": "Diana Martinez",
+      "username": "diana_m",
+      "email": "diana_m@example.com",
+      "date_joined": "2022-04-01"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440044",
+      "name": "Evan Brown",
+      "username": "evan_b",
+      "email": "evan_b@example.com",
+      "date_joined": "2022-04-15"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440045",
+      "name": "Fiona Green",
+      "username": "fiona_g",
+      "email": "fiona_g@example.com",
+      "date_joined": "2022-05-05"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440046",
+      "name": "George White",
+      "username": "george_w",
+      "email": "george_w@example.com",
+      "date_joined": "2022-05-20"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440047",
+      "name": "Hannah Lee",
+      "username": "hannah_l",
+      "email": "hannah_l@example.com",
+      "date_joined": "2022-06-01"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440048",
+      "name": "Ian Harris",
+      "username": "ian_h",
+      "email": "ian_h@example.com",
+      "date_joined": "2022-06-15"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440049",
+      "name": "Jessica Young",
+      "username": "jessica_y",
+      "email": "jessica_y@example.com",
+      "date_joined": "2022-07-01"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440050",
+      "name": "Kyle King",
+      "username": "kyle_k",
+      "email": "kyle_k@example.com",
+      "date_joined": "2022-07-15"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440051",
+      "name": "Laura Scott",
+      "username": "laura_s",
+      "email": "laura_s@example.com",
+      "date_joined": "2022-08-01"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440052",
+      "name": "Mike Brown",
+      "username": "mike_b",
+      "email": "mike_b@example.com",
+      "date_joined": "2022-08-10"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440053",
+      "name": "Nina Adams",
+      "username": "nina_a",
+      "email": "nina_a@example.com",
+      "date_joined": "2022-08-25"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440054",
+      "name": "Oliver Carter",
+      "username": "oliver_c",
+      "email": "oliver_c@example.com",
+      "date_joined": "2022-09-05"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440055",
+      "name": "Paula Turner",
+      "username": "paula_t",
+      "email": "paula_t@example.com",
+      "date_joined": "2022-09-20"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440056",
+      "name": "Quincy Morgan",
+      "username": "quincy_m",
+      "email": "quincy_m@example.com",
+      "date_joined": "2022-10-01"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440057",
+      "name": "Rachel Bailey",
+      "username": "rachel_b",
+      "email": "rachel_b@example.com",
+      "date_joined": "2022-10-15"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440058",
+      "name": "Sam Wilson",
+      "username": "sam_w",
+      "email": "sam_w@example.com",
+      "date_joined": "2022-11-01"
+    },
+    {
+      "user_id": "550e8400-e29b-41d4-a716-446655440059",
+      "name": "Tina Brooks",
+      "username": "tina_b",
+      "email": "tina_b@example.com",
+      "date_joined": "2022-11-15"
+    }
+  ]
+  

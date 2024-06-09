@@ -1,0 +1,183 @@
+[
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440000",
+      "name": "Ultra HD Smart TV",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440001",
+      "category": "Electronics",
+      "description": "A 55-inch Ultra HD Smart TV with 4K resolution and built-in streaming apps.",
+      "price": 799.99,
+      "date_added": "2023-01-15"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Wireless Noise Cancelling Headphones",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440003",
+      "category": "Electronics",
+      "description": "Over-ear wireless headphones with active noise cancellation and up to 30 hours of battery life.",
+      "price": 299.99,
+      "date_added": "2023-02-20"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Stainless Steel Blender",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440005",
+      "category": "Home Appliances",
+      "description": "A powerful 1000-watt blender with multiple speed settings and a durable stainless steel body.",
+      "price": 129.99,
+      "date_added": "2023-03-10"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440006",
+      "name": "Gaming Laptop",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440007",
+      "category": "Electronics",
+      "description": "A high-performance gaming laptop with a powerful GPU and fast processor.",
+      "price": 1499.99,
+      "date_added": "2023-04-01"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440008",
+      "name": "Electric Toothbrush",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440009",
+      "category": "Personal Care",
+      "description": "An electric toothbrush with multiple brushing modes and a long-lasting battery.",
+      "price": 59.99,
+      "date_added": "2023-04-15"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440010",
+      "name": "Smartphone",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440011",
+      "category": "Electronics",
+      "description": "A latest-generation smartphone with a high-resolution camera and fast processor.",
+      "price": 999.99,
+      "date_added": "2023-05-05"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440012",
+      "name": "Air Purifier",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440013",
+      "category": "Home Appliances",
+      "description": "An air purifier with HEPA filter and quiet operation.",
+      "price": 199.99,
+      "date_added": "2023-05-20"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440014",
+      "name": "4K Action Camera",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440015",
+      "category": "Electronics",
+      "description": "A 4K action camera with waterproof design and various mounting options.",
+      "price": 249.99,
+      "date_added": "2023-06-01"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440016",
+      "name": "Fitness Tracker",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440017",
+      "category": "Wearables",
+      "description": "A fitness tracker with heart rate monitoring and GPS tracking.",
+      "price": 149.99,
+      "date_added": "2023-06-15"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440018",
+      "name": "Smart Thermostat",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440019",
+      "category": "Home Automation",
+      "description": "A smart thermostat that can be controlled via smartphone app and voice commands.",
+      "price": 199.99,
+      "date_added": "2023-07-01"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440020",
+      "name": "Robot Vacuum",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440021",
+      "category": "Home Appliances",
+      "description": "A robot vacuum with smart mapping and self-emptying capabilities.",
+      "price": 499.99,
+      "date_added": "2023-07-15"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440022",
+      "name": "Portable Speaker",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440023",
+      "category": "Electronics",
+      "description": "A portable Bluetooth speaker with long battery life and waterproof design.",
+      "price": 99.99,
+      "date_added": "2023-08-01"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440024",
+      "name": "Electric Kettle",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440025",
+      "category": "Home Appliances",
+      "description": "An electric kettle with fast boiling and automatic shut-off features.",
+      "price": 39.99,
+      "date_added": "2023-08-10"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440026",
+      "name": "Wireless Charger",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440027",
+      "category": "Electronics",
+      "description": "A fast wireless charger compatible with multiple devices.",
+      "price": 29.99,
+      "date_added": "2023-08-25"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440028",
+      "name": "Instant Pot",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440029",
+      "category": "Home Appliances",
+      "description": "A versatile multi-cooker with various cooking modes.",
+      "price": 89.99,
+      "date_added": "2023-09-05"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440030",
+      "name": "Noise Cancelling Earbuds",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440031",
+      "category": "Electronics",
+      "description": "Wireless earbuds with active noise cancelling and long battery life.",
+      "price": 129.99,
+      "date_added": "2023-09-20"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440032",
+      "name": "Digital Photo Frame",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440033",
+      "category": "Electronics",
+      "description": "A digital photo frame with Wi-Fi connectivity and remote control.",
+      "price": 69.99,
+      "date_added": "2023-10-01"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440034",
+      "name": "Smart Light Bulb",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440035",
+      "category": "Home Automation",
+      "description": "A smart light bulb with color-changing capabilities and app control.",
+      "price": 19.99,
+      "date_added": "2023-10-15"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440036",
+      "name": "Ergonomic Office Chair",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440037",
+      "category": "Furniture",
+      "description": "An ergonomic office chair with adjustable features for comfort and support.",
+      "price": 199.99,
+      "date_added": "2023-11-01"
+    },
+    {
+      "product_id": "550e8400-e29b-41d4-a716-446655440038",
+      "name": "Wireless Mouse",
+      "brand_id": "550e8400-e29b-41d4-a716-446655440039",
+      "category": "Electronics",
+      "description": "A wireless mouse with ergonomic design and long battery life.",
+      "price": 29.99,
+      "date_added": "2023-11-15"
+    }
+  ]
+  

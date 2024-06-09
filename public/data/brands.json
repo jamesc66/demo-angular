@@ -1,0 +1,123 @@
+[
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "TechGiant",
+      "description": "A leading manufacturer of consumer electronics and home appliances.",
+      "date_joined": "2005-05-15"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "SoundWave",
+      "description": "Innovative audio solutions for the modern listener.",
+      "date_joined": "2010-08-20"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "HomeEssentials",
+      "description": "Quality home appliances to make everyday tasks easier.",
+      "date_joined": "2012-01-10"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440007",
+      "name": "GamerGear",
+      "description": "High-performance gaming equipment for serious gamers.",
+      "date_joined": "2015-03-25"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440009",
+      "name": "PersonalCarePro",
+      "description": "Advanced personal care products for a healthier lifestyle.",
+      "date_joined": "2018-07-30"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440011",
+      "name": "MobileMasters",
+      "description": "Pioneers in smartphone technology and innovation.",
+      "date_joined": "2008-11-22"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440013",
+      "name": "AirPure",
+      "description": "Specialists in air purification and home environment solutions.",
+      "date_joined": "2016-09-14"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440015",
+      "name": "AdventureCam",
+      "description": "Rugged cameras for capturing your wildest adventures.",
+      "date_joined": "2013-05-05"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440017",
+      "name": "FitTrack",
+      "description": "Fitness trackers and wearables for a healthier life.",
+      "date_joined": "2017-02-18"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440019",
+      "name": "SmartHome",
+      "description": "Innovative home automation products for the connected home.",
+      "date_joined": "2014-04-08"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440021",
+      "name": "CleanBot",
+      "description": "Smart cleaning robots to simplify your life.",
+      "date_joined": "2011-06-15"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440023",
+      "name": "SoundFlex",
+      "description": "Portable audio devices for music on the go.",
+      "date_joined": "2019-03-11"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440025",
+      "name": "KitchenPro",
+      "description": "Essential kitchen appliances for the modern cook.",
+      "date_joined": "2020-12-20"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440027",
+      "name": "ChargeIt",
+      "description": "Wireless charging solutions for all your devices.",
+      "date_joined": "2015-01-30"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440029",
+      "name": "CookEase",
+      "description": "Multifunctional cookers to make meal prep a breeze.",
+      "date_joined": "2021-05-22"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440031",
+      "name": "AudioZen",
+      "description": "High-fidelity audio equipment for the discerning listener.",
+      "date_joined": "2012-08-19"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440033",
+      "name": "PixPerfect",
+      "description": "Digital frames and photo accessories for preserving memories.",
+      "date_joined": "2013-11-27"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440035",
+      "name": "BrightHome",
+      "description": "Smart lighting solutions for a brighter home.",
+      "date_joined": "2016-02-15"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440037",
+      "name": "OfficeComfort",
+      "description": "Ergonomic office furniture for maximum comfort.",
+      "date_joined": "2014-10-10"
+    },
+    {
+      "brand_id": "550e8400-e29b-41d4-a716-446655440039",
+      "name": "ClickTech",
+      "description": "Computer peripherals and accessories for everyday use.",
+      "date_joined": "2018-06-25"
+    }
+  ]
+  

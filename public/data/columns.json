@@ -1,0 +1,223 @@
+{
+  "products": [
+    { "title": "product id", "field": "product_id", "width": 150 },
+    { "title": "name", "field": "name", "width": 200 },
+    { "title": "brand id", "field": "brand_id", "width": 150 },
+    { "title": "category", "field": "category", "width": 150 },
+    { "title": "description", "field": "description", "width": 300 },
+    {
+      "title": "price",
+      "field": "price",
+      "formatter": "money",
+      "align": "right",
+      "width": 100
+    },
+    {
+      "title": "date added",
+      "field": "date_added",
+      "sorter": "date",
+      "align": "center",
+      "width": 150
+    }
+  ],
+  "brands": [
+    { "title": "brand id", "field": "brand_id", "width": 150 },
+    { "title": "name", "field": "name", "width": 200 },
+    { "title": "description", "field": "description", "width": 300 },
+    {
+      "title": "date joined",
+      "field": "date_joined",
+      "sorter": "date",
+      "align": "center",
+      "width": 150
+    }
+  ],
+  "users": [
+    { "title": "user id", "field": "user_id", "width": 150 },
+    { "title": "name", "field": "name", "width": 200 },
+    { "title": "username", "field": "username", "width": 200 },
+    { "title": "email", "field": "email", "width": 250 },
+    {
+      "title": "date joined",
+      "field": "date_joined",
+      "sorter": "date",
+      "align": "center",
+      "width": 150
+    }
+  ],
+  "ratingmetrics": [
+    {
+      "title": "overall rating",
+      "field": "overall_rating",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    },
+    {
+      "title": "quality",
+      "field": "quality",
+      "formatter": "star",
+      "align": "center",
+      "width": 100
+    },
+    {
+      "title": "value for money",
+      "field": "value_for_money",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    },
+    {
+      "title": "ease of use",
+      "field": "ease_of_use",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    },
+    {
+      "title": "customer service",
+      "field": "customer_service",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    },
+    {
+      "title": "features",
+      "field": "features",
+      "formatter": "star",
+      "align": "center",
+      "width": 100
+    },
+    {
+      "title": "performance",
+      "field": "performance",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    },
+    {
+      "title": "reliability",
+      "field": "reliability",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    },
+    {
+      "title": "design",
+      "field": "design",
+      "formatter": "star",
+      "align": "center",
+      "width": 100
+    },
+    {
+      "title": "packaging",
+      "field": "packaging",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    }
+  ],
+  "reviews": [
+    { "title": "review id", "field": "review_id", "width": 150 },
+    { "title": "product id", "field": "product_id", "width": 150 },
+    { "title": "reviewer id", "field": "reviewer_id", "width": 150 },
+    {
+      "title": "date",
+      "field": "date",
+      "sorter": "date",
+      "align": "center",
+      "width": 150
+    },
+    { "title": "comments", "field": "comments", "width": 300 },
+    {
+      "title": "overall rating",
+      "field": "rating_metrics.overall_rating",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    },
+    {
+      "title": "quality",
+      "field": "rating_metrics.quality",
+      "formatter": "star",
+      "align": "center",
+      "width": 100
+    },
+    {
+      "title": "value for money",
+      "field": "rating_metrics.value_for_money",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    },
+    {
+      "title": "ease of use",
+      "field": "rating_metrics.ease_of_use",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    },
+    {
+      "title": "customer service",
+      "field": "rating_metrics.customer_service",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    },
+    {
+      "title": "features",
+      "field": "rating_metrics.features",
+      "formatter": "star",
+      "align": "center",
+      "width": 100
+    },
+    {
+      "title": "performance",
+      "field": "rating_metrics.performance",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    },
+    {
+      "title": "reliability",
+      "field": "rating_metrics.reliability",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    },
+    {
+      "title": "design",
+      "field": "rating_metrics.design",
+      "formatter": "star",
+      "align": "center",
+      "width": 100
+    },
+    {
+      "title": "packaging",
+      "field": "rating_metrics.packaging",
+      "formatter": "star",
+      "align": "center",
+      "width": 120
+    }
+  ],
+  "productreviews": [
+    { "title": "product name", "field": "product.name", "width": 200 },
+    { "title": "brand name", "field": "brand.name", "width": 200 },
+    { "title": "user name", "field": "user.name", "width": 200 },
+    {
+      "title": "review date",
+      "field": "review.date",
+      "sorter": "date",
+      "align": "center",
+      "width": 150
+    },
+    { "title": "comments", "field": "review.comments", "width": 300 },
+    {
+      "title": "overall rating",
+      "field": "review.rating_metrics.overall_rating",
+      "formatter": "star",
+      "align": "center",
+      "width": 150
+    }
+  ]
+}

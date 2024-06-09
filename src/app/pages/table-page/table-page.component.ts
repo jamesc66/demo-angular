@@ -1,13 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { DataService } from '../../services/data.service';
+import { CommonModule } from '@angular/common';
 import { TableComponent } from '../../components/table/table.component';
 
 @Component({
   selector: 'app-table-page',
   standalone: true,
-  imports: [TableComponent],
   templateUrl: './table-page.component.html',
-  styleUrl: './table-page.component.css'
+  styleUrls: ['./table-page.component.css'],
+  imports: [CommonModule, TableComponent]
 })
-export class TablePageComponent {
+export class TablePageComponent implements OnInit {
+  data$!: Observable<any>;
+  columns$!: Observable<any>;
 
+  constructor(private dataService: DataService) {}
+
+  ngOnInit(): void {
+    this.dataService.fetchData();
+    this.data$ = this.dataService.getData();
+    this.columns$ = this.dataService.getColumns();
+  }
 }
