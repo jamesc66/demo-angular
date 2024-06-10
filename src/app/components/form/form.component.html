@@ -1,1 +1,42 @@
-<p>form works!</p>
+<form (ngSubmit)="handleSubmit($event)">
+  <div *ngFor="let field of fields; let i = index">
+    <ng-container [ngSwitch]="field.type">
+      <div *ngSwitchCase="'radio'">
+        <label>{{ field.title }}</label>
+        <div *ngFor="let option of field.options">
+          <input
+            type="radio"
+            [name]="field.field"
+            [value]="option"
+            [(ngModel)]="tempValues[field.field]"
+            [required]="field.required || ''"
+          />
+          <label>{{ option }}</label>
+        </div>
+      </div>
+      <div *ngSwitchCase="'textarea'">
+        <label>{{ field.title }}</label>
+        <textarea
+          [name]="field.field"
+          [(ngModel)]="tempValues[field.field]"
+          [placeholder]="field.placeholder"
+          [required]="field.required || ''"
+        ></textarea>
+      </div>
+      <div *ngSwitchDefault>
+        <label>{{ field.title }}</label>
+        <input
+          [type]="field.type"
+          [name]="field.field"
+          [(ngModel)]="tempValues[field.field]"
+          [placeholder]="field.placeholder"
+          [required]="field.required || ''"
+          [pattern]="field.validation || ''"
+          [min]="field.min"
+          [max]="field.max"
+        />
+      </div>
+    </ng-container>
+  </div>
+  <button type="submit">Submit</button>
+</form>

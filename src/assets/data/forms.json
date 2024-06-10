@@ -1,0 +1,391 @@
+{
+  "products": [
+    {
+      "title": "Product ID",
+      "field": "product_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter product ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Name",
+      "field": "name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter product name",
+      "validation": "^[a-zA-Z0-9 ]+$"
+    },
+    {
+      "title": "Brand ID",
+      "field": "brand_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter brand ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Category",
+      "field": "category",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter category",
+      "validation": "^[a-zA-Z0-9 ]+$"
+    },
+    {
+      "title": "Description",
+      "field": "description",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Enter description",
+      "validation": "^[\\s\\S]*$"
+    },
+    {
+      "title": "Price",
+      "field": "price",
+      "type": "number",
+      "required": true,
+      "placeholder": "Enter price",
+      "min": 0,
+      "validation": "^\\d+(\\.\\d{1,2})?$"
+    },
+    {
+      "title": "Date Added",
+      "field": "date_added",
+      "type": "date",
+      "required": true,
+      "placeholder": "Select date added",
+      "validation": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  ],
+  "brands": [
+    {
+      "title": "Brand ID",
+      "field": "brand_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter brand ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Name",
+      "field": "name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter brand name",
+      "validation": "^[a-zA-Z0-9 ]+$"
+    },
+    {
+      "title": "Description",
+      "field": "description",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Enter description",
+      "validation": "^[\\s\\S]*$"
+    },
+    {
+      "title": "Date Joined",
+      "field": "date_joined",
+      "type": "date",
+      "required": true,
+      "placeholder": "Select date joined",
+      "validation": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  ],
+  "users": [
+    {
+      "title": "User ID",
+      "field": "user_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter user ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Name",
+      "field": "name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter name",
+      "validation": "^[a-zA-Z ]+$"
+    },
+    {
+      "title": "Username",
+      "field": "username",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter username",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Email",
+      "field": "email",
+      "type": "email",
+      "required": true,
+      "placeholder": "Enter email",
+      "validation": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+    },
+    {
+      "title": "Date Joined",
+      "field": "date_joined",
+      "type": "date",
+      "required": true,
+      "placeholder": "Select date joined",
+      "validation": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  ],
+  "ratingmetrics": [
+    {
+      "title": "Overall Rating",
+      "field": "overall_rating",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Quality",
+      "field": "quality",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Value for Money",
+      "field": "value_for_money",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Ease of Use",
+      "field": "ease_of_use",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Customer Service",
+      "field": "customer_service",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Features",
+      "field": "features",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Performance",
+      "field": "performance",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Reliability",
+      "field": "reliability",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Design",
+      "field": "design",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Packaging",
+      "field": "packaging",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "Review ID",
+      "field": "review_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter review ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Product ID",
+      "field": "product_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter product ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Reviewer ID",
+      "field": "reviewer_id",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter reviewer ID",
+      "validation": "^[a-zA-Z0-9_-]+$"
+    },
+    {
+      "title": "Date",
+      "field": "date",
+      "type": "date",
+      "required": true,
+      "placeholder": "Select date",
+      "validation": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    {
+      "title": "Comments",
+      "field": "comments",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Enter comments",
+      "validation": "^[\\s\\S]*$"
+    },
+    {
+      "title": "Overall Rating",
+      "field": "rating_metrics.overall_rating",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Quality",
+      "field": "rating_metrics.quality",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Value for Money",
+      "field": "rating_metrics.value_for_money",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Ease of Use",
+      "field": "rating_metrics.ease_of_use",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Customer Service",
+      "field": "rating_metrics.customer_service",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Features",
+      "field": "rating_metrics.features",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Performance",
+      "field": "rating_metrics.performance",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Reliability",
+      "field": "rating_metrics.reliability",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Design",
+      "field": "rating_metrics.design",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    },
+    {
+      "title": "Packaging",
+      "field": "rating_metrics.packaging",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    }
+  ],
+  "productreviews": [
+    {
+      "title": "Product Name",
+      "field": "product.name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter product name",
+      "validation": "^[a-zA-Z0-9 ]+$"
+    },
+    {
+      "title": "Brand Name",
+      "field": "brand.name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter brand name",
+      "validation": "^[a-zA-Z0-9 ]+$"
+    },
+    {
+      "title": "User Name",
+      "field": "user.name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter user name",
+      "validation": "^[a-zA-Z0-9 ]+$"
+    },
+    {
+      "title": "Review Date",
+      "field": "review.date",
+      "type": "date",
+      "required": true,
+      "placeholder": "Select review date",
+      "validation": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    {
+      "title": "Comments",
+      "field": "review.comments",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Enter comments",
+      "validation": "^[\\s\\S]*$"
+    },
+    {
+      "title": "Overall Rating",
+      "field": "review.rating_metrics.overall_rating",
+      "type": "radio",
+      "required": true,
+      "options": [1, 2, 3, 4, 5],
+      "validation": "^[0-5]$"
+    }
+  ]
+}

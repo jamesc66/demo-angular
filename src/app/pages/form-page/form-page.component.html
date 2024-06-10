@@ -1,2 +1,34 @@
-<h1>Form Page</h1>
-<app-form />
+<ng-container *ngIf="(loading$ | async); else loaded">
+    <p>Loading...</p>
+  </ng-container>
+  
+  <ng-template #loaded>
+    <h1>Users Form</h1>
+    <app-form
+      [fields]="(forms$ | async)?.users"
+      [data]="(data$ | async)?.users[0]"
+      (submit)="handleSubmit($event)"
+    ></app-form>
+  
+    <h1>Brands Form</h1>
+    <app-form
+      [fields]="(forms$ | async)?.brands"
+      [data]="(data$ | async)?.brands[0]"
+      (submit)="handleSubmit($event)"
+    ></app-form>
+  
+    <h1>Products Form</h1>
+    <app-form
+      [fields]="(forms$ | async)?.products"
+      [data]="(data$ | async)?.products[0]"
+      (submit)="handleSubmit($event)"
+    ></app-form>
+  
+    <h1>Reviews Form</h1>
+    <app-form
+      [fields]="(forms$ | async)?.reviews"
+      [data]="(data$ | async)?.reviews[0]"
+      (submit)="handleSubmit($event)"
+    ></app-form>
+  </ng-template>
+  
