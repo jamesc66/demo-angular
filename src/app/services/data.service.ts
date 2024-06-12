@@ -3,12 +3,26 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { BehaviorSubject, forkJoin, Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
+interface ComponentConfig {
+  id: string;
+  data: string;
+}
+
+interface ComponentData {
+  [key: string]: any[];
+}
+
+interface AdditionalData {
+  columns: any;
+  forms: any;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
   private loadingSubject = new BehaviorSubject<boolean>(true);
-  private dataSubject = new BehaviorSubject<any>({});
+  private dataSubject = new BehaviorSubject<ComponentData>({});
   private columnsSubject = new BehaviorSubject<any>({});
   private formsSubject = new BehaviorSubject<any>({});
 
@@ -19,52 +33,72 @@ export class DataService {
 
   constructor(private http: HttpClient) {}
 
+  // Helper function to fetch JSON data
+  private fetchJsonData(url: string): Observable<any> {
+    return this.http.get<any>(url).pipe(
+      catchError((error: HttpErrorResponse) => this.handleError(error, url))
+    );
+  }
+
+  // Function to fetch all component data based on the configuration
+  private fetchComponentData(components: ComponentConfig[], baseUrl: string): Observable<ComponentData> {
+    const componentObservables = components.map(component =>
+      this.fetchJsonData(`${baseUrl}${component.data}`).pipe(
+        map(data => ({ id: component.id, data }))
+      )
+    );
+
+    return forkJoin(componentObservables).pipe(
+      map(componentsData =>
+        componentsData.reduce((acc: ComponentData, component) => {
+          acc[component.id] = component.data;
+          return acc;
+        }, {})
+      )
+    );
+  }
+
+  // Function to fetch additional data (columns and forms)
+  private fetchAdditionalData(): Observable<AdditionalData> {
+    return forkJoin({
+      columns: this.fetchJsonData('assets/data/columns.json'),
+      forms: this.fetchJsonData('assets/data/forms.json')
+    });
+  }
+
+  // Main function to load all data and update the state
   fetchData(): void {
     console.log('Fetching data...');
 
-    const usersRes = this.http.get<any[]>('assets/data/users.json').pipe(
-      catchError(error => this.handleError(error, 'users.json'))
-    );
-    const brandsRes = this.http.get<any[]>('assets/data/brands.json').pipe(
-      catchError(error => this.handleError(error, 'brands.json'))
-    );
-    const productsRes = this.http.get<any[]>('assets/data/products.json').pipe(
-      catchError(error => this.handleError(error, 'products.json'))
-    );
-    const reviewsRes = this.http.get<any[]>('assets/data/reviews.json').pipe(
-      catchError(error => this.handleError(error, 'reviews.json'))
-    );
-    const columnsRes = this.http.get<any>('assets/data/columns.json').pipe(
-      catchError(error => this.handleError(error, 'columns.json'))
-    );
-    const formsRes = this.http.get<any>('assets/data/forms.json').pipe(
-      catchError(error => this.handleError(error, 'forms.json'))
-    );
+    this.fetchJsonData('assets/data/config.json').subscribe({
+      next: (config: { components: ComponentConfig[] }) => {
+        const baseUrl = 'assets/data/';
 
-    forkJoin([usersRes, brandsRes, productsRes, reviewsRes, columnsRes, formsRes]).pipe(
-      map(([users, brands, products, reviews, columnsData, formsData]) => {
-        console.log('Data fetched successfully:', { users, brands, products, reviews, columnsData, formsData });
-        return {
-          data: { users, brands, products, reviews },
-          columns: columnsData,
-          forms: formsData
-        };
-      })
-    ).subscribe({
-      next: ({ data, columns, forms }) => {
-        console.log('Updating subjects with fetched data...', data, columns, forms);
-        this.dataSubject.next(data);
-        this.columnsSubject.next(columns);
-        this.formsSubject.next(forms);
-        this.loadingSubject.next(false);
+        forkJoin({
+          componentData: this.fetchComponentData(config.components, baseUrl),
+          additionalData: this.fetchAdditionalData()
+        }).subscribe({
+          next: ({ componentData, additionalData }) => {
+            console.log('Data fetched successfully:', componentData, additionalData);
+            this.dataSubject.next(componentData);
+            this.columnsSubject.next(additionalData.columns);
+            this.formsSubject.next(additionalData.forms);
+            this.loadingSubject.next(false);
+          },
+          error: (error) => {
+            console.error('Error fetching combined data:', error);
+            this.loadingSubject.next(false);
+          }
+        });
       },
       error: (error) => {
-        console.error('Error fetching combined data:', error);
+        console.error('Error fetching config data:', error);
         this.loadingSubject.next(false);
       }
     });
   }
 
+  // Error handling function
   private handleError(error: HttpErrorResponse, file: string): Observable<never> {
     let errorMessage = `Error fetching ${file}: `;
     if (error.error instanceof ErrorEvent) {
@@ -76,7 +110,7 @@ export class DataService {
     return throwError(() => new Error(errorMessage));
   }
 
-  getData(): Observable<any> {
+  getData(): Observable<ComponentData> {
     return this.dataSubject.asObservable();
   }
 
