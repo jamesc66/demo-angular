@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ChartComponent } from '../../components/chart/chart.component';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-chart-page',
@@ -8,20 +9,23 @@ import { ChartComponent } from '../../components/chart/chart.component';
   standalone: true,
   imports: [ChartComponent]
 })
-export class ChartPageComponent {
-  chartData = [
-    { date: new Date('2010-01-01'), value: 30 },
-    { date: new Date('2010-02-01'), value: 50 },
-    { date: new Date('2010-03-01'), value: 80 },
-    { date: new Date('2010-04-01'), value: 65 },
-    { date: new Date('2010-05-01'), value: 95 },
-    { date: new Date('2010-06-01'), value: 55 }
-  ];
+export class ChartPageComponent implements OnInit {
+  data: any[] = [];
+  config: any = {};
 
-  chartConfig: any = {
-    width: 800,
-    height: 400,
-    margin: { top: 20, right: 20, bottom: 30, left: 50 },
-    color: 'red'
-  };
+  constructor(private dataService: DataService) {}
+
+  ngOnInit(): void {
+    this.dataService.fetchData();
+
+    this.dataService.getCharts().subscribe(charts => {
+      if (charts) {
+        this.config = charts; // Assign the specific chart config
+
+        this.dataService.getData().subscribe((data: any) => {
+          this.data = data.reviews; // Replace 'reviews' with the actual data key if different
+        });
+      }
+    });
+  }
 }

@@ -115,7 +115,7 @@ export class DataService {
     return throwError(() => new Error(errorMessage));
   }
 
-  getData(): Observable<ComponentData> {
+  getData(): Observable<any> {
     return this.dataSubject.asObservable();
   }
 

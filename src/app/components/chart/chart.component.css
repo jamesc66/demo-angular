@@ -1,11 +1,15 @@
 .chart-container {
-    width: 100%;
-    height: 500px;
-  }
-  
-  .line {
-    fill: none;
-    stroke: steelblue;
-    stroke-width: 2px;
-  }
-  
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.average-line {
+  stroke-dasharray: 5,5;
+}
