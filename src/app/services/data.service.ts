@@ -15,6 +15,7 @@ interface ComponentData {
 interface AdditionalData {
   columns: any;
   forms: any;
+  charts: any;
 }
 
 @Injectable({
@@ -25,11 +26,13 @@ export class DataService {
   private dataSubject = new BehaviorSubject<ComponentData>({});
   private columnsSubject = new BehaviorSubject<any>({});
   private formsSubject = new BehaviorSubject<any>({});
+  private chartsSubject = new BehaviorSubject<any>({});
 
   loading$ = this.loadingSubject.asObservable();
   data$ = this.dataSubject.asObservable();
   columns$ = this.columnsSubject.asObservable();
   forms$ = this.formsSubject.asObservable();
+  charts$ = this.chartsSubject.asObservable();
 
   constructor(private http: HttpClient) {}
 
@@ -62,7 +65,8 @@ export class DataService {
   private fetchAdditionalData(): Observable<AdditionalData> {
     return forkJoin({
       columns: this.fetchJsonData('assets/data/columns.json'),
-      forms: this.fetchJsonData('assets/data/forms.json')
+      forms: this.fetchJsonData('assets/data/forms.json'),
+      charts: this.fetchJsonData('assets/data/charts.json')
     });
   }
 
@@ -83,6 +87,7 @@ export class DataService {
             this.dataSubject.next(componentData);
             this.columnsSubject.next(additionalData.columns);
             this.formsSubject.next(additionalData.forms);
+            this.chartsSubject.next(additionalData.charts);
             this.loadingSubject.next(false);
           },
           error: (error) => {
@@ -120,5 +125,9 @@ export class DataService {
 
   getForms(): Observable<any> {
     return this.formsSubject.asObservable();
+  }
+
+  getCharts(): Observable<any> {
+    return this.chartsSubject.asObservable();
   }
 }

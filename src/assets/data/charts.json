@@ -1,0 +1,23 @@
+{
+  "margin": {
+    "top": 20,
+    "right": 30,
+    "bottom": 30,
+    "left": 40
+  },
+  "width": 500,
+  "height": 300,
+  "accessor": "rating_metrics",
+  "metrics": [
+    "overall_rating",
+    "quality",
+    "value_for_money",
+    "ease_of_use",
+    "customer_service",
+    "features",
+    "performance",
+    "reliability",
+    "design",
+    "packaging"
+  ]
+}
