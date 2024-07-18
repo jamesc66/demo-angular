@@ -1,12 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-radar-chart',
-  standalone: true,
-  imports: [],
   templateUrl: './radar-chart.component.html',
-  styleUrl: './radar-chart.component.css'
+  styleUrls: ['./radar-chart.component.css'],
+  standalone: true,
 })
-export class RadarChartComponent {
+export class RadarChartComponent implements OnChanges {
+  @Input() data: any;
+  @Input() config: any;
 
+  constructor() {}
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['data']) {
+      console.log('data:', this['data']);
+    }
+    if (changes['config']) {
+      console.log('config:', this['config']);
+    }
+  }
 }
