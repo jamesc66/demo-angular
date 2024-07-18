@@ -7,6 +7,7 @@ import { FormComponent } from './components/form/form.component';
 import { DataService } from './services/data.service';
 import { appConfig } from './app.config';
 import { XyComponent } from './components/xy/xy.component';
+import { RadarChartComponent } from './components/radar-chart/radar-chart.component';
 
 // Define your routes here
 const routes: Routes = [
@@ -25,7 +26,8 @@ const routes: Routes = [
     NavComponent,
     ChartComponent,
     FormComponent,
-    XyComponent
+    XyComponent,
+    RadarChartComponent
   ],
   providers: [
     DataService,
