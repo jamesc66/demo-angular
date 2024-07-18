@@ -21,9 +21,9 @@ export class ChartPageComponent implements OnInit {
     this.dataService.getCharts().subscribe(charts => {
       if (charts) {
         this.config = charts; // Assign the specific chart config
-
         this.dataService.getData().subscribe((data: any) => {
-          this.data = data.reviews; // Replace 'reviews' with the actual data key if different
+        console.log('Charts:', data.humidity);
+        this.data = data.reviews; // Replace 'reviews' with the actual data key if different
         });
       }
     });

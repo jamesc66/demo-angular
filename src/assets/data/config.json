@@ -19,6 +19,11 @@
       "title": "Users",
       "id": "users",
       "data": "users.json"
+    },
+    {
+      "title": "humidity",
+      "id": "humidity",
+      "data": "humidity.json"
     }
   ]
 }

@@ -6,6 +6,7 @@ import { ChartComponent } from './components/chart/chart.component';
 import { FormComponent } from './components/form/form.component';
 import { DataService } from './services/data.service';
 import { appConfig } from './app.config';
+import { XyComponent } from './components/xy/xy.component';
 
 // Define your routes here
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'nav', component: NavComponent },
   { path: 'chart', component: ChartComponent },
   { path: 'form', component: FormComponent },
+  { path: 'xy', component: XyComponent },
   { path: '', redirectTo: '/table', pathMatch: 'full' } // Default route
 ];
 
@@ -22,7 +24,8 @@ const routes: Routes = [
     TableComponent, // Import standalone components here
     NavComponent,
     ChartComponent,
-    FormComponent
+    FormComponent,
+    XyComponent
   ],
   providers: [
     DataService,
