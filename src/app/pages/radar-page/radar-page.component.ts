@@ -1,17 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { RadarChartComponent } from '../../components/radar-chart/radar-chart.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-radar-page',
   standalone: true,
-  imports: [RadarChartComponent],
+  imports: [RadarChartComponent, CommonModule ],
   templateUrl: './radar-page.component.html',
   styleUrl: './radar-page.component.css'
 })
 export class RadarPageComponent implements OnInit {
   data: any = [];
   config: any = {};
+  allData: any = [];
 
   constructor(private http: HttpClient) {}
 
@@ -20,8 +22,9 @@ export class RadarPageComponent implements OnInit {
   }
 
   fetchData() {
-    this.http.get('assets/data/columns.json').subscribe((data: any) => {
-      this.data = data;
+    this.http.get('assets/data/room-insights.json').subscribe((data: any) => {
+      this.data = data[0].insight;
+      this.allData = data;
       this.config = {
         variant: "radar",
         nKey: "room",
@@ -36,7 +39,6 @@ export class RadarPageComponent implements OnInit {
           "areas",
           "points",
           "lines",
-          "heat",
           "annotations",
           "shadedSegments",
         ],

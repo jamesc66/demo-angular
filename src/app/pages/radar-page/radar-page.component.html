@@ -1,1 +1,9 @@
-<app-radar-chart [data]="data" [config]="config"></app-radar-chart>
+<div *ngIf="data.length && config">
+    <app-radar-chart 
+      *ngIf="config.nKey && config.seriesKey && config.margin" 
+      [data]="data" 
+      [allData]="allData" 
+      [config]="config">
+    </app-radar-chart>
+  </div>
+  
