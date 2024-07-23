@@ -8,6 +8,7 @@ import { DataService } from './services/data.service';
 import { appConfig } from './app.config';
 import { XyComponent } from './components/xy/xy.component';
 import { RadarChartComponent } from './components/radar-chart/radar-chart.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
 
 // Define your routes here
 const routes: Routes = [
@@ -16,7 +17,7 @@ const routes: Routes = [
   { path: 'chart', component: ChartComponent },
   { path: 'form', component: FormComponent },
   { path: 'xy', component: XyComponent },
-  { path: '', redirectTo: '/table', pathMatch: 'full' } // Default route
+  { path: '', redirectTo: '/table', pathMatch: 'full' }, // Default route
 ];
 
 @NgModule({
@@ -27,12 +28,13 @@ const routes: Routes = [
     ChartComponent,
     FormComponent,
     XyComponent,
-    RadarChartComponent
+    RadarChartComponent,
+    TimelineComponent,
   ],
   providers: [
     DataService,
-    ...appConfig.providers // Spread the providers from the configuration
+    ...appConfig.providers, // Spread the providers from the configuration
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

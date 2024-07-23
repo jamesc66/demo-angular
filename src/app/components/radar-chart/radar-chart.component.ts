@@ -56,6 +56,7 @@ export class RadarChartComponent implements OnChanges, AfterViewInit {
   }
 
   initializeChart() {
+    console.log('Initializing chart with config:', this.config);
     this.show = initializeShow({ config: this.config });
     this.nestedData = d3.group(this.data, (d) => d[this.config.nKey]);
     this.nestedAllData = d3.group(this.allData, (d) => d[this.config.nKey]);
@@ -66,7 +67,9 @@ export class RadarChartComponent implements OnChanges, AfterViewInit {
       customColorScale: this.config.colors,
     });
 
-    this.series = Array.from(new Set(this.data.map((d) => d[this.config.seriesKey])));
+    this.series = Array.from(
+      new Set(this.data.map((d) => d[this.config.seriesKey]))
+    );
     this.selectedSeries = new Set(this.series);
     this.drawChart(true);
   }
@@ -74,7 +77,9 @@ export class RadarChartComponent implements OnChanges, AfterViewInit {
   updateData() {
     this.nestedData = d3.group(this.data, (d) => d[this.config.nKey]);
     this.nestedAllData = d3.group(this.allData, (d) => d[this.config.nKey]);
-    this.series = Array.from(new Set(this.data.map((d) => d[this.config.seriesKey])));
+    this.series = Array.from(
+      new Set(this.data.map((d) => d[this.config.seriesKey]))
+    );
     this.selectedSeries = new Set(this.series); // Ensure all series are selected on update
     this.drawChart(false);
   }
